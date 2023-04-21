@@ -1,0 +1,16 @@
+
+*{
+    margin: 0px 100px;
+}
+
+.hd{
+    background-color: red;
+}
+.hd{
+    display: flex;
+    justify-content: space-between;
+}
+.list ul {
+    display: flex;
+    justify-content: center;
+}
