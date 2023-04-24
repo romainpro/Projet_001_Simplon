@@ -10,10 +10,7 @@
 }
 
 /* supprime le visuel des h1 et h2 pour W3C  */
-h1,
-h2 {
-    display: none;
-}
+
 
 img {
     width: 100%;
@@ -22,7 +19,7 @@ img {
 
 header {
     font-family: 'Montserrat', sans-serif;
-    height: 500px;
+    height: 1000px;
 }
 
 .main_grid {
