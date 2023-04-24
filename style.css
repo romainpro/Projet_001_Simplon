@@ -17,13 +17,8 @@ img {
     height: auto;
 }
 
-header {
-    font-family: 'Montserrat', sans-serif;
-    height: 1000px;
-}
 
 .main_grid {
-    height: 100vh;
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -114,4 +109,9 @@ main p.date {
         display: none;
     }
     
+}
+
+footer { 
+    position: absolute;
+
 }
