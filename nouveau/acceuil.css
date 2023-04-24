@@ -73,8 +73,11 @@ h2 {
     width: 300px;
     height: 225px;
 }
-span{
-    text-decoration:underline;
+a.souligne{
+    background-image: linear-gradient(to right, #d15270 75%, transparent 50%);
+    background-position: 0 110%;
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
 }
 /* contenu */
 div.flexbox1 {
