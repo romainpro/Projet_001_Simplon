@@ -14,3 +14,117 @@
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px 0px 10px 20px;
+    box-sizing: border-box; /* bach maybrch l7ajm dyal lktaba*/
+    color: #000000;
+    font-family:'oswald', sans-serif;  /* bach nmdl chkl dyal lktaba*/
+}
+ /*.containair{
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* bach tswira li fl backr takhod chacha kamla*/
+   /* display: flex;
+    flex-direction: column;
+    overflow: hidden; /*ay 7aja makaynach fl containair ghadi tkhba 
+}  */
+header nav{
+    padding: 0% 9%;
+    display:flex;
+  /*      justify-content:;        bach ykoun wa7d espace bin l abna2*/
+}
+header .nav-links{
+    flex: 1; /* bach yakhod lblasa li khla lih bah */
+    display: flex; /* bach yrja3 ab*/
+    align-items:end; /* bach kamlin ywliw f nfs niveau*/
+     justify-content:left;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none ; /* bach mayb9awch douk no9at dyal ul*/
+    margin: auto;
+
+
+}
+header nav ul li {
+    margin: 0 5px ;   /* hada l dik l masafa li bin kola ktma*/
+}
+header nav ul li a {
+    text-decoration: none; /* bach y7ayd dak l lkhat li kaykoun ta7t lien*/
+    font-size: 0px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+
+
+header nav ul li a:hover{
+    color: orange; /* hadi bach ybda ybdl loun*/
+}
+header nav ul li a::after{
+    content:"" ;
+    display: block;
+    height: 2px;             /* hada l dak lkhat li lta7t*/
+    width: 0%;
+  background-color: orange;  
+   transition: 0.5s;
+}
+
+header nav ul li a:hover::after{
+width: 100%;
+}
+ 
+ 
+header p{
+    font-size: 12px;
+    color: gray;
+ }
+header .nav-links  {
+    margin: 0 470px ;  /* lmasafa bin logo w lktaba*/
+ }
+
+header h1 {
+    color:#d05270 ;
+    padding:0px 0px 10px 10px;
+    margin: 0px 0px 0px 170px ;
+   font-size: 37px ;
+ }
+header h2 {
+    padding:0px 0px 20px 10px ;
+    margin: 0px 0px 0px 170px;
+   font-size: 40px ;
+ }
+header .lorem {
+    padding: 0px 0px 20px 30px;
+    margin: 0px 0px 0px 150px;
+   font-size: 15px ;
+ }
+header .bloc1{
+    width: 60%;
+ }
+ header i{
+    padding:15px  60px;
+    background-color: rgb(45, 167, 255);
+ }
+header .twitter{
+    padding: 10px;
+   
+  
+ }
+header .bas{
+    display: flex;
+    
+}
+header .img{
+    justify-self:right;
+    margin: 0px 400px 10px 0px;
+}
