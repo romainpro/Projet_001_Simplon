@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulaire de renseignement </title>
+    <link rel="stylesheet" href="styleformulaire.css">
+</head>
+<body>
+    <h1> Contactez-moi !</h1>
+    
+    <br>
+
+    <form>
+       
+            <div>
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Martin" required>
+            </div>
+            <br>
+            <div>
+            <label for="email">Votre e-mail</label>
+            <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <br>
+            <div>
+            <label for="sujet">Quel est le sujet de votre message ?</label>
+            <select name="sujet" id="sujet" required>
+            <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+            <option value="un projet"> Un projet ?  </option>
+            <option value="une collaboration"> Une collaboration ?  </option>
+            <option value="un message"> Un message ? </option>
+            <option value="autre">Autre...</option>
+            </select>
+            <textarea name="textarea" rows="10" cols="50">Vous pouvez écrire ici.</textarea>
+         </div>  
+
+        <div>
+         <label for="avatar">N'hésitez pas à m'envoyez dans le projet d'une collaboration une maquette ou portfolio:</label>
+          <br>
+         <label for="message">Vos fichier</label><input type="file"
+        </div>
+            <br>  
+            <button type="submit">Envoyer mon message</button>
+    </form>
+
+</body>
+</html>
