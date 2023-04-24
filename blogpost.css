@@ -1,10 +1,8 @@
 
 *{
     padding: 0px;
-    margin: 0px 0px 0px 20px;
-    box-sizing: border-box; /* bach maybrch l7ajm dyal lktaba*/
-    color: #000000;
-    font-family:'oswald', sans-serif;  /* bach nmdl chkl dyal lktaba*/
+    margin: 0;
+    box-sizing: border-box;
 }
  
  nav{
