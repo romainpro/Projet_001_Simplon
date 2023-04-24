@@ -1,0 +1,169 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-size: 1em;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+     align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+}
+.image {
+    display: flex;
+    
+    width: 450px;
+    height: 450px;  
+}
+.logo {
+    width: 100%;
+}
+
+div.contact a{
+    color: grey;
+    text-decoration: none; 
+    margin-right: 1em; 
+}
+div.contact a:hover{
+    color: #6655b1;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+    margin-left: 15%;
+    width: 70%;
+}
+div.pc{
+    width: 49%;
+    box-sizing: border-box;
+    margin-bottom: 4em;
+}
+img{
+    width: 100%;
+}
+/* taille image et couleur texte */
+h1{
+    font-family: 'Abril Fatface';
+    color: #D05270;
+    font-size: 3em;
+}
+p{
+font-family: 'Montserrat';
+color: #424242;
+max-width: 500px;
+}
+h4{
+    color: #434343;
+    font-family: 'Montserrat';
+}
+h2 {
+    color: #D05270;
+    font-family: 'Montserrat';
+    font-size: 30px;
+}
+.pcrose {
+    width: 300px;
+    height: 225px;
+}
+.pcnoir {
+    width: 300px;
+    height: 225px;
+}
+span{
+    text-decoration:underline;
+}
+/* contenu */
+div.flexbox1 {
+    display: flex;
+    margin-left: 15%;
+    width: 50%;
+    flex-flow: row;
+    margin-bottom: 9em;
+    
+}
+a{
+    color: #D05270;
+    text-decoration: none;
+}
+.titrenoir {
+    color: #424242;
+}
+/*partie reseau*/
+div.contReseau{
+    display: flex;
+    justify-content: space-evenly;
+    
+    gap: 6em;
+   
+    /* height: 300px; */
+    margin-top: 4em;
+    margin-bottom: 10em;
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    display: flex;
+    justify-content: end;
+    
+    flex-flow: row;
+    gap: 6em;
+    width: 70%;
+    height: 300px;
+    margin-top: 4em;
+    margin-bottom: 10em; */
+}
+.underline {
+    text-decoration: none;
+}
+div.reseau{
+    display: flex;
+    margin-top: 3em;
+    gap: 1.5em;
+}
+div.reseau div{
+    flex: 1;
+    color: white;
+    font-size: 1em;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+div.reseau a{
+    text-decoration: none;
+    flex: 1;
+}
+div.reseau .twitter{
+    background-color: #03a9f4;
+    padding-right: 10px;
+}
+div.reseau .linkedin{
+    background-color: #0ca4f5;
+    padding-right: 10px;
+}
+div.reseau .medium{
+    background-color: black;
+    padding-left: 10px;
+}
+
+div.reseau img{
+    width: 30px;
+    margin-left: 0.7em;
+    margin-bottom: 0.1em;
+}
+div.reseau div span{
+    margin-left: 1em;
+    text-align: center;
+}
