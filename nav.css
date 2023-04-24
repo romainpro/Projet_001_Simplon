@@ -1,11 +1,7 @@
 
-
-
-
-
 *{
     padding: 0px;
-    margin: 0px 0px 10px 20px;
+    margin: 0px 0px 0px 20px;
     box-sizing: border-box; /* bach maybrch l7ajm dyal lktaba*/
     color: #000000;
     font-family:'oswald', sans-serif;  /* bach nmdl chkl dyal lktaba*/
@@ -20,7 +16,7 @@
     overflow: hidden; /*ay 7aja makaynach fl containair ghadi tkhba 
 }  */
 header nav{
-    padding: 0% 9%;
+    padding: 0% 18.5%;
     display:flex;
   /*      justify-content:;        bach ykoun wa7d espace bin l abna2*/
 }
@@ -72,32 +68,35 @@ header p{
     color: gray;
  }
 header .nav-links  {
-    margin: 0 470px ;  /* lmasafa bin logo w lktaba*/
+    margin: 0 710px ;  /* lmasafa bin logo w lktaba*/
  }
 
 header h1 {
+    width: 600px;
     color:#d05270 ;
-    padding:0px 0px 10px 10px;
-    margin: 0px 0px 0px 170px ;
+    padding:60px 50px 10px 10px;
+    margin: 0px 50px 0px 370px ;
    font-size: 37px ;
  }
 header h2 {
+    width:265px ;
     padding:0px 0px 20px 10px ;
-    margin: 0px 0px 0px 170px;
+    margin: 0px 0px 0px 370px;
    font-size: 40px ;
  }
 header .lorem {
     padding: 0px 0px 20px 30px;
-    margin: 0px 0px 0px 150px;
+    margin: 0px 0px 0px 332px;
    font-size: 15px ;
  }
 header .bloc1{
     width: 60%;
  }
- header i{
+ /* header i{
+   display: flex;
     padding:15px  60px;
     background-color: rgb(45, 167, 255);
- }
+ } */
 header .twitter{
     padding: 10px;
    
@@ -110,4 +109,15 @@ header .bas{
 header .img{
     justify-self:right;
     margin: 0px 400px 10px 0px;
+}
+.imgh{
+    margin: 0px 0px 0px 100px;
+    height: 350px;
+}
+.logo{
+height: 120px;
+}
+.ph{
+    height: 50px;
+    width: 940px;
 }
