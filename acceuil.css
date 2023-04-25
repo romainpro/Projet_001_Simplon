@@ -108,10 +108,11 @@ div.contReseau{
     /* height: 300px; */
     margin-top: 4em;
     margin-bottom: 10em;
+}
 
-
-
-
+.container img{
+    cursor: pointer;
+}
 
 
 
@@ -129,7 +130,6 @@ div.contReseau{
     height: 300px;
     margin-top: 4em;
     margin-bottom: 10em; */
-}
 .underline {
     text-decoration: none;
 }
