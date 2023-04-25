@@ -14,7 +14,7 @@ Nous avons travaillées ensemble durant 3 jours pour accomplir ce projet.
 
 Le premier jour : 
 
-- Mise en place d'un Trello collaboratif avec des mises aux point le midi et le soir . 
+- Mise en place d'un Trello collaboratif avec des mises aux points le midi et le soir . 
 - Abbritution des tâches 
 - Début du code 
 - Attribution des pages
