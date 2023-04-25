@@ -1,0 +1,110 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-weight: 300;
+    font-size: 1em;
+}
+h1{
+    font-family: 'Abril Fatface';
+    color:#d05270;
+}
+h2,h3{
+    color: #3a0ca3;
+}
+/*container*/
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+/**/
+.logo{
+    width: 100%;
+}
+img.pcrose{
+    width: 70%;
+    margin-left: 15%;
+}
+div.contact a{
+    color: grey;
+    text-decoration: none;
+    margin-right: 1em; 
+}
+div.contact a:hover{
+    color: #6655b1;
+    font-weight: bold;
+}
+main{
+    text-align: justify;
+    width: 70%;
+    margin-left: 15%;
+}
+footer{
+    display: flex;
+    margin-left: 15%;
+    flex-flow: row;
+    gap: 6em;
+    width: 70%;
+    height: 300px;
+}
+.image {
+    width: 100%;
+
+}
+h1,h2,h3{
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+p{
+    margin-bottom: 2em;
+}
+/*partie reseau*/
+div.reseau{
+    display: flex;
+    margin-top: 3em;
+    gap: 1.5em;
+}
+div.reseau div{
+    flex: 1;
+    color: white;
+    font-size: 1em;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+.rose{
+    color: #d05270;
+    font-size: 2em;
+}
+div.reseau a{
+    text-decoration: none;
+    flex: 1;
+}
+div.reseau .twitter{
+    background-color: #03a9f4;
+    padding-right: 50px;
+}
+div.reseau .linkedin{
+    background-color: #0077b5;
+    padding-right: 50px;
+}
+
+div.reseau .medium{
+    background-color: black;
+    padding-right: 50px;
+}
+div.reseau .medium span{
+    bottom: 1px;
+}
+div.reseau img{
+    width: 40px;
+    margin-left: 2em;
+    margin-bottom: 0.1em;
+}
+div.reseau div span{
+    margin-left: 2em;
+}
+footer h1{
+    font-family: 'Montserrat', sans-serif;
+}
