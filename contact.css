@@ -12,6 +12,10 @@ div.contactez-nous{
 .logo{
     width: 100%;
 }
+div.nav a.gras{
+    font-weight: bold;
+    color:#03a9f4
+}
 div.nav a{
     color: grey;
     text-decoration: none;

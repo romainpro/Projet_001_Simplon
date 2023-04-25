@@ -9,6 +9,13 @@ header{
     align-items: center;
     justify-content: space-around;
 }
+div.contact a.gras{
+    font-weight: bold;
+    color:#03a9f4
+}
+
+
+
 div.contact a{
     color: grey;
     text-decoration: none;
