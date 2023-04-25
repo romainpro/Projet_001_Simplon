@@ -25,8 +25,10 @@ Le deuxéme jour :
 - Le formulaire 
 - Le read-me premiere épreuve 
 - Le footer
+- Design des pages
 
-
+Le troisiéme jour : 
+-
 
 
 
