@@ -19,6 +19,7 @@ Le premier jour :
 - Début du code 
 - Attribution des pages
 
+
 Le deuxéme jour : 
 
 - Vérification des pages 
