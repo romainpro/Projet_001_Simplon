@@ -108,3 +108,7 @@ div.reseau div span{
 footer h1{
     font-family: 'Montserrat', sans-serif;
 }
+div.contact a.gras{
+    font-weight: bold;
+    color:#6655b1;
+}
