@@ -19,7 +19,6 @@ Le premier jour :
 - Début du code 
 - Attribution des pages
 
-
 Le deuxéme jour : 
 
 - Vérification des pages 
@@ -29,9 +28,13 @@ Le deuxéme jour :
 - Design des pages
 
 Le troisiéme jour : 
--
+- Restriction formulaire 
+- Intégration du texte dans le vs
+- Design
+- Vérification des pages
+
 
 
 
 *Collaboration*
-Fait par Julie,Clément,Romain et Jalil. 
+Fait par Julie,Clément,Romain et Abdel
