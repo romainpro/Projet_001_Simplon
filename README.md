@@ -32,9 +32,11 @@ Le troisiéme jour :
 - Intégration du texte dans le vs
 - Design
 - Vérification des pages
+- Mises en places des articles 
 
 
 
 
 *Collaboration*
-Fait par Julie,Clément,Romain et Abdel
+
+Julie,Clément,Romain et Abdel
