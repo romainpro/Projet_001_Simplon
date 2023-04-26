@@ -13,7 +13,7 @@ function ajouttxt(text,images,titre1,titre2){
 return `
 
 <div class="pc" >
-    <a href="pagepc.html"><img src="${images}" alt="PC de couleur rose"></a>
+    <a href="pagepc.html"><img class="images" src="${images}" alt="PC de couleur rose"></a>
     <h4>${titre1}</h4>
     <h2>${titre2}</h2>
     <p>${text}</p>
