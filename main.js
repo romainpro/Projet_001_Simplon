@@ -1,34 +1,30 @@
 
  var articletext='';
 
-function ajouttxt(text,images,titre){
+function ajouttxt(text,images,titre1,titre2){
 
 
 return `
 
 <div class="pc" >
     <a href="pagepc.html"><img src="${images}" alt="PC de couleur rose"></a>
-    <h4>25 avril 2023</h4>
-    <h2>${titre}</h2>
+    <h4>${titre1}</h4>
+    <h2>${titre2}</h2>
     <p>${text}</p>
     <a class="souligne" href="pagepc.html">EN SAVOIR PLUS</a>
 </div>
 <div class="pc">
     <a href="pagepc.html"><img src="${images}" alt="PC de couleur rose"></a>
-    <h4>25 avril 2023</h4>
-    <h2>${titre}</h2>
+    <h4>${titre1}</h4>
+    <h2>${titre2}</h2>
     <p>${text}</p>           
      <a class="souligne" href="pagepcn.html">EN SAVOIR PLUS</a>
 </div>` 
 }
 
-articletext = articletext + ajouttxt("ok",'img/pcnoir.jpg',"titre");
-articletext = articletext + ajouttxt("ok",'img/pcnoir.jpg',"titre");
-articletext = articletext + ajouttxt("ok",'img/pcrose.jpg',"titre");
-articletext = articletext + ajouttxt("ok",'img/pcrose.jpg',"titre");
-articletext = articletext + ajouttxt("ok",'img/pcrose.jpg',"titre");
-articletext = articletext + ajouttxt("ok",'img/pcrose.jpg',"titre");
-articletext = articletext + ajouttxt("ok",'img/pcrose.jpg',"titre");
+articletext = articletext + ajouttxt("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",'img/image_001.jpg',"25 avril 2023","lorem ipsum dolor sit amret");
+articletext = articletext + ajouttxt("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",'img/image_002.jpg',"25 avril 2023","lorem ipsum dolor sit amret");
+articletext = articletext + ajouttxt("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.",'img/image_003.jpg',"25 avril 2023","lorem ipsum dolor sit amret");
 
 
 document.getElementById("article").innerHTML=articletext; 
