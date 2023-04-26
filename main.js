@@ -12,9 +12,7 @@ return `
     <h2>${titre2}</h2>
     <p>${text}</p>
     <a class="souligne" href="pagepc.html">EN SAVOIR PLUS</a>
-</div>
-
-` 
+</div>` 
 }
 
 articletext = articletext + ajouttxt(lorem,'img/image_001.jpg',"25 avril 2023","lorem ipsum dolor sit amret");
